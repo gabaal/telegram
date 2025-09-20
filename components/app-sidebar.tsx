@@ -55,10 +55,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 <ChannelList
   filters={filters}
   options={options}
-  sort={sort}
-  limit={10}
-  showHeader={false}
-  showSearch={false}
   showChannelSearch={false}
 
   EmptyStateIndicator={(() => (
