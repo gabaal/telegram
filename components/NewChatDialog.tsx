@@ -100,7 +100,7 @@ export function NewChatDialog({children}: {children: React.ReactNode}) {
                                             <p className="text-xs text-muted-foreground truncate">{user.email}</p>
                                         </div>
                                     </div>
-                                    <button onClick={() => removeUser(user.id)} className="text-muted-foreground hover:text-destructive transition-colors p-1">
+                                    <button onClick={() => removeUser(user.userId)} className="text-muted-foreground hover:text-destructive transition-colors p-1">
                                         <XIcon className="w-4 h-4"/>
                                     </button>
                                 </div>
